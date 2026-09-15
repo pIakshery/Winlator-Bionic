@@ -24,7 +24,8 @@ plugins {
 tasks.register("downloadImageFS") {
         def assetDir = new File(project.rootDir, ["app","src","main","assets"].join(File.separator))
     File imageFS = new File(assetDir, "imagefs.txz")
-    String imageFSSHA256Sum = "https://gitlab.com/winlator3/winlator-extra/-/raw/main/imagefs/imagefs.txz.sha256sum"
+    String imageFSBaseUrl = "https://gitlab.com/pIakshery/imagefs-hosting/-/raw/main/imagefs"
+    String imageFSSHA256Sum = "${imageFSBaseUrl}/imagefs.txz.sha256sum"
     int parts = 4
 
     doLast {
@@ -33,7 +34,7 @@ tasks.register("downloadImageFS") {
             FileOutputStream outputStream = new FileOutputStream(imageFS)
             for (int i = 0; i < parts; i++) {
                 File partFile = new File(assetDir, String.format("imagefs.txz.%02d", i))
-                String partURL = String.format("https://gitlab.com/winlator3/winlator-extra/-/raw/main/imagefs/imagefs.txz.%02d", i)
+                String partURL = String.format("${imageFSBaseUrl}/imagefs.txz.%02d", i)
                 new URL(partURL).withInputStream { p ->
                     partFile.withOutputStream { it << p }
                     outputStream << partFile.bytes
