@@ -385,7 +385,7 @@ public class ContainerDetailFragment extends Fragment implements DXVKConfigDialo
         AppUtils.setSpinnerSelectionFromValue(sMIDISoundFont, isEditMode() ? container.getMIDISoundFont() : "");
 
         final CheckBox cbShowFPS = view.findViewById(R.id.CBShowFPS);
-        cbShowFPS.setChecked(!isEditMode() || container.isShowFPS());
+        cbShowFPS.setChecked(isEditMode() && container.isShowFPS());
 
         final CheckBox cbFullscreenStretched = view.findViewById(R.id.CBFullscreenStretched);
         cbFullscreenStretched.setChecked(isEditMode() && container.isFullscreenStretched());
@@ -526,7 +526,7 @@ public class ContainerDetailFragment extends Fragment implements DXVKConfigDialo
         createWinComponentsTab(view, isEditMode() ? container.getWinComponents() : Container.DEFAULT_WINCOMPONENTS);
         createDrivesTab(view);
 
-        AppUtils.setupTabLayout(view, R.id.TabLayout, R.id.LLTabEnvVars, R.id.LLTabAdvanced, R.id.LLTabWineConfiguration, R.id.LLTabWinComponents, R.id.LLTabDrives, R.id.LLTabXR);
+        AppUtils.setupTabLayout(view, R.id.TabLayout, R.id.LLTabWineConfiguration, R.id.LLTabWinComponents, R.id.LLTabEnvVars, R.id.LLTabDrives, R.id.LLTabAdvanced, R.id.LLTabXR);
 
         TabLayout tabLayout = view.findViewById(R.id.TabLayout);
 
