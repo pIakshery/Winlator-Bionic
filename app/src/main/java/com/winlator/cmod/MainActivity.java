@@ -302,7 +302,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             ((TextView) dialog.findViewById(R.id.TVAppVersion)).setText(getString(R.string.version) + " " + pInfo.versionName);
 
             String creditsAndThirdPartyAppsHTML = String.join("<br />",
-                    "Winlator Bionic Ludashi by StevenMXZ,thanks to PissBlaster649/Pypetto-Crypto (<a href=\"https://github.com/StevenMXZ/Winlator-Ludashi\">Fork</a>, <a href=\"https://github.com/Pipetto-crypto/winlator\">Fork</a>)",
+                    "Winlator Bionic by Pipetto-Crypto, Plakshery (<a href=\"https://github.com/Pipetto-crypto/winlator\">Fork</a>, <a href=\"https://github.com/pIakshery/Winlator-Bionic\">Fork</a>)",
                     "Big Picture Mode Music by",
                     "Dale Melvin Blevens III (Fumer)",
                     "---",
