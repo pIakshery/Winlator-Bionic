@@ -117,14 +117,10 @@ public class RepositoryManagerDialog {
         repos.clear();
         if (jsonStr.isEmpty()) {
             
-            
-            
-            repos.add(new DriverRepo("K11MCH1 Turnip Drivers", "https://api.github.com/repos/K11MCH1/AdrenoToolsDrivers/releases"));     
-            repos.add(new DriverRepo("StevenMX Turnip Drivers", "https://api.github.com/repos/StevenMXZ/freedreno_turnip-CI/releases"));
-        
-            repos.add(new DriverRepo("Snapdragon Elite Drivers", "https://api.github.com/repos/StevenMXZ/Adrenotools-Drivers/releases"));
-            
-            repos.add(new DriverRepo("Weab-Chan Turnip Drivers", "https://api.github.com/repos/Weab-chan/freedreno_turnip-CI/releases"));
+            repos.add(new DriverRepo(
+                    "Banners Turnip Drivers",
+                    "https://api.github.com/repos/The412Banner/Banners-Turnip/releases"
+            ));
 
         } else {
             try {
