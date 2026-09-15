@@ -129,29 +129,16 @@ public abstract class WineThemeManager {
         Canvas canvas = new Canvas(outputBitmap);
 
         File userWallpaperFile = getUserWallpaperFile(context);
+        Bitmap image;
         if (userWallpaperFile.isFile()) {
-            Bitmap image = BitmapFactory.decodeFile(userWallpaperFile.getPath());
-            Rect srcRect = new Rect(0, 0, image.getWidth(), image.getHeight());
-            Rect dstRect = new Rect(0, 0, outputWidth, outputHeight);
-            canvas.drawBitmap(image, srcRect, dstRect, paint);
+            image = BitmapFactory.decodeFile(userWallpaperFile.getPath());
+        } else {
+            image = BitmapFactory.decodeResource(context.getResources(), R.drawable.wallpaper);
         }
-        else {
-            BitmapFactory.Options options = new BitmapFactory.Options();
-            options.inTargetDensity = DisplayMetrics.DENSITY_HIGH;
-            Bitmap wallpaperBitmap = BitmapFactory.decodeResource(context.getResources(), R.drawable.wallpaper, options);
-            paint.setStyle(Paint.Style.FILL);
-            paint.setColor(0xff01579b);
-            canvas.drawRect(0, 0, outputWidth, outputHeight * 0.5f, paint);
-            paint.setColor(0xff0277bd);
-            canvas.drawRect(0, outputHeight * 0.5f, outputWidth, outputHeight, paint);
 
-            float targetSize = outputHeight * (320.0f / 480.0f);
-            float centerX = (outputWidth - targetSize) * 0.5f;
-            float centerY = (outputHeight - targetSize) * 0.5f;
-            Rect srcRect = new Rect(0, 0, wallpaperBitmap.getWidth(), wallpaperBitmap.getHeight());
-            RectF dstRect = new RectF(centerX, centerY, centerX + targetSize, centerY + targetSize);
-            canvas.drawBitmap(wallpaperBitmap, srcRect, dstRect, paint);
-        }
+        Rect srcRect = new Rect(0, 0, image.getWidth(), image.getHeight());
+        Rect dstRect = new Rect(0, 0, outputWidth, outputHeight);
+        canvas.drawBitmap(image, srcRect, dstRect, paint);
 
         ImageFs imageFs = ImageFs.find(context);
         MSBitmap.create(outputBitmap, new File(imageFs.getRootDir(), ImageFs.CACHE_PATH+"/wallpaper.bmp"));
