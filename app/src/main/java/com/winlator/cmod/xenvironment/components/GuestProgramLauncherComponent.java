@@ -360,14 +360,6 @@ public class GuestProgramLauncherComponent extends EnvironmentComponent {
         Log.d("GuestLauncher", "Final LD_PRELOAD: " + ld_preload);
         envVars.put("LD_PRELOAD", ld_preload);
 
-        if (this.envVars.has("MANGOHUD")) {
-            this.envVars.remove("MANGOHUD");
-        }
-
-        if (this.envVars.has("MANGOHUD_CONFIG")) {
-            this.envVars.remove("MANGOHUD_CONFIG");
-        }
-
         if (this.envVars != null) {
             envVars.putAll(this.envVars);
         }
