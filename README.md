@@ -14,18 +14,13 @@ Winlator is an Android application that lets you run Windows (x86\_64) applicati
 
 This build is a fork of **Winlator Bionic** by [Pipetto-crypto](https://github.com/Pipetto-crypto/winlator), fine-tuned for smoother performance, better compatibility, and a cleaner experience out of the box — with an integrated MangoHud overlay for real-time performance monitoring.
 
-<p align="center">
-  <img src="collage.png" alt="Winlator Bionic Screenshots" width="800">
-</p>
-
-Development on this fork is ongoing and driven by real gameplay testing rather than just code changes — every tweak to FEX, Box64, or the graphics stack is validated against actual titles before it ships. The goal isn't just to add features, but to keep the app stable, fast, and predictable release after release.
-
 # Useful Tips
 
+  - Use Proton (arm64ec) together with FEX for the best performance.
   - If you're using an `x86_64` container and running into performance issues, try switching the Box86/Box64 preset to **Performance** in Container Settings → Advanced.
-  - If you're using an `Arm64EC` container, try the latest FEXCore version in the container settings for better compatibility or performance.
   - For .NET Framework apps, install Wine Mono from Start Menu → System Tools.
   - The built-in **MangoHud overlay** shows real-time FPS/CPU/GPU/battery stats — enable it in Container Settings.
+  - The Adrenotools GPU Drivers section defaults to [The412Banner's Banners-Turnip](https://github.com/The412Banner/Banners-Turnip) repository — all the latest drivers are available right from the app.
 
 # Credits and Third-party apps
 
