@@ -1,0 +1,38 @@
+Copyright (c) 2026 rivarikki
+
+Permission is hereby granted to any person obtaining a copy of this
+software and associated documentation files (the "Software") to use
+and modify the Software for personal, non-commercial purposes only.
+
+Redistribution, publication, sublicensing, or public forking of the
+Software or any modified version of it, in whole or in part, is
+strictly prohibited without prior written permission from the
+copyright holder.
+
+Distribution, sharing, or publication of the Software or any of its
+builds — including but not limited to APK files, test builds, or
+derivative works — via third-party channels, communities, or
+platforms (including but not limited to Telegram channels, Discord
+servers, or similar) that generate revenue through advertising,
+paid subscriptions, donations, or any other monetization tied to
+access to this Software, is strictly prohibited without prior
+written permission from the copyright holder, regardless of whether
+a fee is charged directly for the Software itself.
+
+This includes, but is not limited to, modifications and integrations
+made to third-party components bundled within this project (such as
+MangoHud overlay patches), which remain subject to their own original
+licenses (e.g. MangoHud is licensed under GPLv3 — see
+https://github.com/flightlessmango/MangoHud for details). This clause
+does not grant additional rights over those third-party components
+beyond what their own licenses permit; it only restricts
+redistribution of this repository's own modifications and integration
+work.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
