@@ -24,23 +24,20 @@ This build is a fork of **Winlator Bionic** by [Pipetto-crypto](https://github.c
 
 # Credits and Third-party apps
 
-| Component | Author / Source |
-|---|---|
-| Original Winlator | [brunodev85](https://github.com/brunodev85/winlator) |
-| Original Winlator Bionic | [Pipetto-crypto](https://github.com/Pipetto-crypto/winlator) |
-| Winlator (coffincolors fork) | [coffincolors](https://github.com/coffincolors/winlator) |
-| Ubuntu RootFs (Bionic Beaver) | [releases.ubuntu.com/bionic](https://releases.ubuntu.com/bionic) |
-| Wine | [winehq.org](https://www.winehq.org/) |
-| Box86 / Box64 | [ptitSeb](https://github.com/ptitSeb) |
-| FEX-Emu | [FEX-Emu](https://github.com/FEX-Emu/FEX) |
-| PRoot | [proot-me.github.io](https://proot-me.github.io) |
-| Mesa (Turnip / Zink / VirGL) | [mesa3d.org](https://www.mesa3d.org) |
-| DXVK | [doitsujin](https://github.com/doitsujin/dxvk) |
-| VKD3D | [wine/vkd3d](https://gitlab.winehq.org/wine/vkd3d) |
-| D8VK | [AlpyneDreams](https://github.com/AlpyneDreams/d8vk) |
-| CNC DDraw | [FunkyFr3sh](https://github.com/FunkyFr3sh/cnc-ddraw) |
-| Turnip driver work | [Danylo](https://blogs.igalia.com/dpiliaiev/tags/mesa/) |
-| Mods / Tips | [alexvorxx](https://github.com/alexvorxx) |
+  - **Original Winlator** by [brunodev85](https://github.com/brunodev85/winlator)
+  - **Original Winlator Bionic** by [Pipetto-crypto](https://github.com/Pipetto-crypto/winlator)
+  - **Winlator (coffincolors fork)** by [coffincolors](https://github.com/coffincolors/winlator)
+  - Ubuntu RootFs (Bionic Beaver): [releases.ubuntu.com/bionic](https://www.google.com/search?q=https://releases.ubuntu.com/bionic)
+  - Wine: [winehq.org](https://www.winehq.org/)
+  - Box86/Box64 by [ptitseb](https://github.com/ptitSeb)
+  - FEX-Emu by [FEX-Emu](https://github.com/FEX-Emu/FEX)
+  - PRoot: [proot-me.github.io](https://proot-me.github.io)
+  - Mesa (Turnip/Zink/VirGL): [mesa3d.org](https://www.mesa3d.org)
+  - DXVK: [github.com/doitsujin/dxvk](https://github.com/doitsujin/dxvk)
+  - VKD3D: [gitlab.winehq.org/wine/vkd3d](https://gitlab.winehq.org/wine/vkd3d)
+  - D8VK: [github.com/AlpyneDreams/d8vk](https://github.com/AlpyneDreams/d8vk)
+  - CNC DDraw: [github.com/FunkyFr3sh/cnc-ddraw](https://github.com/FunkyFr3sh/cnc-ddraw)
+[ptitseb](https://github.com/ptitSeb) (Box86/Box64), [Danylo](https://blogs.igalia.com/dpiliaiev/tags/mesa/) (Turnip), [alexvorxx](https://github.com/alexvorxx) (Mods/Tips) and others.
 
 
 
