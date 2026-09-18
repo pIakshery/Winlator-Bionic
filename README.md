@@ -14,26 +14,18 @@ Winlator is an Android application that lets you run Windows (x86\_64) applicati
 
 This build is a fork of **Winlator Bionic** by [Pipetto-crypto](https://github.com/Pipetto-crypto/winlator), fine-tuned for smoother performance, better compatibility, and a cleaner experience out of the box — with an integrated MangoHud overlay for real-time performance monitoring.
 
+<p align="center">
+  <img src="collage.png" alt="Winlator Bionic Screenshots" width="800">
+</p>
+
+Development on this fork is ongoing and driven by real gameplay testing rather than just code changes — every tweak to FEX, Box64, or the graphics stack is validated against actual titles before it ships. The goal isn't just to add features, but to keep the app stable, fast, and predictable release after release.
+
 # Useful Tips
 
-  - Here is a tutorial from ZeroKimchi channel on how to use Winlator Bionic:
-    https://youtu.be/EJDWZUGF9sk?si=e3Z-DdmMJSYKduWz
-  - If you are using an `x86_64` container and experiencing performance issues, try changing the Box86/Box64 preset to **Performance** in Container Settings -\> Advanced Tab.
-  - If you are using an `Arm64EC` container, try using FEXCore version **2609** (the latest) in the container settings for better compatibility or performance.
-  - For applications that use .NET Framework, try installing Wine Mono found in Start Menu -\> System Tools.
-  - If some older games don't open, try adding the environment variable MESA\_EXTENSION\_MAX\_YEAR=2003 in Container Settings -\> Environment Variables.
-  - Try running the games using the shortcut on the Winlator home screen, there you can define individual settings for each game.
-  - To speed up the installers, try changing the Box86/Box64 preset to Intermediate in Container Settings -\> Advanced Tab.
-  - A built-in **MangoHud overlay** is included for on-screen FPS/CPU/GPU/battery monitoring — enable it in Container Settings to see real-time performance stats while playing.
-
-# Additional Components & Updates
-
-You can find updated components (known as `wcps`) to improve compatibility and performance, as well as new drivers, at the links below:
-
-  - **Winlator Components (FEXCore, Box64/Box86, DXVK, etc.):**
-      - [The412Banner's Nightlies Repository](https://github.com/The412Banner/Nightlies/releases)
-  - **Adreno GPU Drivers (Turnip):**
-      - [The412Banner's Banners-Turnip Repository](https://github.com/The412Banner/Banners-Turnip)
+  - If you're using an `x86_64` container and running into performance issues, try switching the Box86/Box64 preset to **Performance** in Container Settings → Advanced.
+  - If you're using an `Arm64EC` container, try the latest FEXCore version in the container settings for better compatibility or performance.
+  - For .NET Framework apps, install Wine Mono from Start Menu → System Tools.
+  - The built-in **MangoHud overlay** shows real-time FPS/CPU/GPU/battery stats — enable it in Container Settings.
 
 # Credits and Third-party apps
 
