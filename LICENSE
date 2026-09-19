@@ -1,0 +1,50 @@
+Copyright (c) 2026 rivarikki
+
+Permission is hereby granted to any person obtaining a copy of this
+software and associated documentation files (the "Software") to use
+the Software for personal, non-commercial purposes only.
+
+Modification, alteration, adaptation, creation of derivative works,
+forking, redistribution, publication, sublicensing, or any other
+form of reproduction or distribution of the Software, in whole or
+in part, is strictly prohibited without prior written permission
+from the copyright holder.
+
+The Software may not be modified, forked, adapted, or incorporated
+into another project for the purpose of creating or distributing
+any modified, derivative, or competing version without prior written
+permission from the copyright holder.
+
+Any modification made solely for personal, non-commercial use does
+not grant permission to distribute, publish, share, fork, or otherwise
+make such modification available to any third party.
+
+Distribution, sharing, or publication of the Software or any of its
+builds — including but not limited to APK files, test builds, or
+derivative works — via third-party channels, communities, or
+platforms (including but not limited to Telegram channels, Discord
+servers, or similar) that generate revenue through advertising,
+paid subscriptions, donations, or any other monetization tied to
+access to this Software, is strictly prohibited without prior
+written permission from the copyright holder, regardless of whether
+a fee is charged directly for the Software itself.
+
+This also includes modifications and integrations made to third-party
+components bundled within this project (such as MangoHud overlay
+patches), which remain subject to their own original licenses
+(e.g. MangoHud is licensed under GPLv3).
+
+This clause does not grant any additional rights over third-party
+components beyond what their respective licenses permit; it only
+restricts redistribution of this repository's own modifications
+and integration work.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
