@@ -17,7 +17,8 @@ This build is a fork of **Winlator Bionic** by [Pipetto-crypto](https://github.c
 # Useful Tips
 
   - Use Proton (arm64ec) together with FEX for the best performance.
-  - If you're using an `x86_64` container and running into performance issues, try switching the Box86/Box64 preset to **Performance** in Container Settings → Advanced.
+  - Use the **Performance** preset for both **Box64 Preset** and **FEXCore Preset** in Settings for the best experience.
+  - If you're using an `Arm64EC` (FEX) container and games like *Control* or *Resident Evil 2 Remake* freeze or hang, go to Settings → **FEXCore Preset** and set it to **Performance**. If it's already set to Performance, create a new custom preset instead, enable the first option (**FEX TSO**), and save — this should stop the freezing.
   - For .NET Framework apps, install Wine Mono from Start Menu → System Tools.
   - The built-in **MangoHud overlay** shows real-time FPS/CPU/GPU/battery stats — enable it in Container Settings.
   - The Adrenotools GPU Drivers section defaults to [The412Banner's Banners-Turnip](https://github.com/The412Banner/Banners-Turnip) repository — all the latest drivers are available right from the app.
