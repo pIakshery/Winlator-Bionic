@@ -19,9 +19,17 @@ This build is a fork of **Winlator Bionic** by [Pipetto-crypto](https://github.c
   - Use Proton (arm64ec) together with FEX for the best performance.
   - Use the **Performance** preset for both **Box64 Preset** and **FEXCore Preset** in Settings for the best experience.
   - If you're using an `Arm64EC` (FEX) container and games like *Control* or *Resident Evil 2 Remake* freeze or hang, go to Settings → **FEXCore Preset** and set it to **Performance**. If it's already set to Performance, create a new custom preset instead, enable the first option (**FEX TSO**), and save — this should stop the freezing.
-  - For .NET Framework apps, install Wine Mono from Start Menu → System Tools.
-  - The built-in **MangoHud overlay** shows real-time FPS/CPU/GPU/battery stats — enable it in Container Settings.
+  - The built-in **MangoHud overlay** shows real-time FPS/CPU/GPU stats and is **enabled by default** as the main performance overlay.
+
+    > 🎮 **Custom MangoHud layouts:** to change its style, go to Container Settings → Environment Variables → `MANGOHUD_CONFIG` and paste one of these ready-made presets:
+    >
+    > Horizontal:
+    > `horizontal,fps,gpu,cpu,,ram,swap,cpu_mhz,gpu_load_change,fps_color_change,gpu_temp,cpu_load_change,vulkan_driver`
+    >
+    > Vertical, full CPU cores:
+    > `engine_version,gpu,cpu,fps,frametime,ram,vulkan_driver,swap,cpu_mhz,gpu_load_change,fps_color_change,core_load,core_type,core_load_change,gpu_temp`
   - The Adrenotools GPU Drivers section defaults to [The412Banner's Banners-Turnip](https://github.com/The412Banner/Banners-Turnip) repository — all the latest drivers are available right from the app.
+  - For .NET Framework apps, install Wine Mono from Start Menu → System Tools.
 
 # Credits and Third-party apps
 
