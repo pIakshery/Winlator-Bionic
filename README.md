@@ -2,7 +2,7 @@
 
 > ⚠️ **License notice:** This repository is distributed under a **custom restricted license** — personal, non-commercial use only. Redistribution, publication, or public forking without prior written permission is prohibited. See [LICENSE](LICENSE) for full terms.
 >
-> 🚫 **Monetization clause:** Sharing this app or content related to it (including APKs, gameplay footage, or benchmark/test videos) in monetized channels or communities — Telegram, Discord, or similar — that profit from ads, paid subscriptions, or donations tied to access to this Software is strictly prohibited.
+> 🚫 **Monetization clause:** Sharing this app or content related to it (including APKs, gameplay footage, or benchmark/test videos) in monetized channels or communities — Telegram, Discord, or similar — that profit from ads, paid subscriptions, or donations is strictly prohibited.
 
 <p align="center">
   <img src="logo.png" alt="Winlator Bionic" width="600">
